@@ -24,6 +24,9 @@ include = [
 travis-ci = { repository = "gwihlidal/smol-v-rs" }
 maintenance = { status = "actively-developed" }
 
+[lib]
+path = "build.rs"
+
 [build-dependencies]
 cc = { version = "1.0.25", features = ["parallel"] }
 
