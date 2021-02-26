@@ -11,6 +11,7 @@ keywords = ["vulkan", "shader", "compression", "3d", "rendering"]
 categories = ["rendering", "rendering::engine", ]
 license = "MIT/Apache-2.0"
 build = "build.rs"
+crate-type = ["cdylib", "lib"]
 include = [
     "src/*.rs",
     "gen/bindings.rs",
